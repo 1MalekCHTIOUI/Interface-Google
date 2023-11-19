@@ -71,7 +71,7 @@ section .offer {
   position: absolute;
   right: 1rem;
   top: 10%;
-  /* background-color: transparent; */
+
   border: none;
   width: 3rem;
   height: 2rem;
@@ -83,7 +83,7 @@ section .offer {
   position: absolute;
   left: 0;
   top: 15%;
-  /* background-color: transparent; */
+
   border: none;
   width: 3rem;
   height: 2rem;
@@ -116,7 +116,6 @@ section .offer {
   position: absolute;
   top: 0;
   left: 2.5rem;
-  /* right: 8.5rem; */
   background-color: transparent;
   outline: none;
   padding-left: 1rem;
@@ -194,16 +193,6 @@ footer {
   margin-right: 1rem;
   font-size: 13.5px;
 }
-
-/* @media screen and (min-width: 768px) {
-  .input_wrapper {
-    width: 50%;
-  }
-  .footer2 {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-} */
 
 @media screen and (max-width: 767px) {
   .footer2 {
