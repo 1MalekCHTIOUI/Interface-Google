@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+
+  box-sizing: border-box;
+  font-family: sans-serif, serif;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2rem;
+}
+
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_item {
+  margin: 0 10px;
+  padding: 0;
+}
+.nav_link {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
+.section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo,
+.input,
+.button_wrapper {
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: fit-content;
+  width: 20rem;
+}
+
+.input_wrapper {
+  position: relative;
+  width: 80%;
+  height: 2.5rem;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-bottom: 1.5rem;
+}
+.icon_button_wrapper {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 1rem;
+  top: 10%;
+  /* background-color: transparent; */
+  border: none;
+  width: 3rem;
+  height: 2rem;
+}
+.icon_button_wrapper button {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+
+  z-index: 1;
+}
+.icon_button_wrapper button img {
+  width: 30px;
+  height: 100%;
+}
+
+.input {
+  position: absolute;
+  height: 90%;
+  border-radius: 20px;
+  width: 80%;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border: none;
+}
+
+.g_buttons {
+  font-size: 15px;
+  height: fit-content;
+  padding: 0.7rem;
+  width: max-content;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  margin: 0.5rem;
+}
+
+.offer {
+  color: rgb(54, 54, 54);
+}
+.offer a {
+  text-decoration: none;
+}
+
+footer {
+  height: 8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f1f1f1;
+}
+
+.footer1 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer1,
+.footer2 {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.footer2 {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.footer2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer2_1 a,
+.footer2_2 a,
+.footer1 p {
+  margin-right: 1rem;
+  font-size: 13.5px;
+}
+
+@media screen and (min-width: 768px) {
+  .input_wrapper {
+    width: 50%;
+  }
+}
